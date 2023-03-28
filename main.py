@@ -19,3 +19,5 @@ eachPays = billSplit + eachTip
 eachPaysRounded = round(eachPays, 2)
 
 eachPaysString = str(eachPaysRounded)
+
+print("Each person should pay " + eachPaysString)
