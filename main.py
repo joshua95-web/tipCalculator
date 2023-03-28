@@ -10,6 +10,10 @@ numberOfPeople = input("Split the bill between how many people?\n")
 numberOfPeopleInt = int(numberOfPeople)
 
 billSplit = billTotalInt / numberOfPeopleInt
-billSplitInt = int(billSplit)
+#billSplitInt = int(billSplit)
 
-eachTip = (tipPercentageInt / 100) * billSplitInt
+eachTip = (tipPercentageInt / 100) * billSplit
+
+eachPays = billSplit + eachTip
+
+eachPaysRounded = round(eachPays, 2)
