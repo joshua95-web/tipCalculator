@@ -17,3 +17,5 @@ eachTip = (tipPercentageInt / 100) * billSplit
 eachPays = billSplit + eachTip
 
 eachPaysRounded = round(eachPays, 2)
+
+eachPaysString = str(eachPaysRounded)
